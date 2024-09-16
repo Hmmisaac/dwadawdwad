@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Robotics Innovation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Robotics Innovation</h1>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to the Future of Robotics</h2>
+            <p>Innovating cutting-edge technology to build the next generation of intelligent robots.</p>
+            <a href="#projects" class="btn">Explore Projects</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>We are a team of engineers, researchers, and enthusiasts dedicated to creating intelligent robotic solutions. Our mission is to push the boundaries of robotics to improve efficiency, safety, and quality of life.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2>Our Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Autonomous Delivery Robot</h3>
+                <p>This robot can autonomously deliver packages in urban environments, navigating obstacles and interacting with humans.</p>
+            </div>
+            <div class="project-card">
+                <h3>Robotic Arm for Precision Surgery</h3>
+                <p>A surgical assistant robot designed to assist surgeons in performing precise and minimally invasive surgeries.</p>
+            </div>
+            <div class="project-card">
+                <h3>Industrial Robotics Automation</h3>
+                <p>Our automation robots streamline manufacturing processes, increasing productivity and reducing human labor.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team-section">
+        <h2>Meet the Team</h2>
+        <div class="team-container">
+            <div class="team-member">
+                <img src="team-member1.jpg" alt="John Doe">
+                <h3>John Doe</h3>
+                <p>CEO & Robotics Engineer</p>
+            </div>
+            <div class="team-member">
+                <img src="team-member2.jpg" alt="Jane Smith">
+                <h3>Jane Smith</h3>
+                <p>Lead AI Developer</p>
+            </div>
+            <div class="team-member">
+                <img src="team-member3.jpg" alt="Sara Johnson">
+                <h3>Sara Johnson</h3>
+                <p>Mechanical Engineer</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Robotics Innovation. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
